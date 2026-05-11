@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ARAWAI – Annual Report Analysis with AI</title>
+  <meta name="description" content="ARAWAI is an AI-powered financial analysis platform that transforms annual reports into deep, actionable insights in minutes." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── NAVIGATION ── -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-mark">A</span>
+        <span class="logo-text">ARAWAI</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+        <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-orb hero-orb--1"></div>
+      <div class="hero-orb hero-orb--2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">AI · Financial Intelligence · Annual Reports</div>
+      <h1 class="hero-headline">
+        Annual Reports.<br />
+        <span class="gradient-text">Analysed by AI.</span><br />
+        Understood in Minutes.
+      </h1>
+      <p class="hero-sub">
+        ARAWAI — <strong>Annual Report Analysis with AI</strong> — is a next-generation
+        platform that applies large language models and financial modelling to transform
+        complex annual reports into precise, actionable intelligence.
+      </p>
+      <div class="hero-actions">
+        <a href="https://www.arawai.uk" target="_blank" rel="noopener" class="btn btn--primary">Launch the Tool</a>
+        <a href="#about" class="btn btn--ghost">Learn More</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">100+</span>
+          <span class="stat-label">Financial Metrics</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">AI</span>
+          <span class="stat-label">Powered Analysis</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">&lt;5 min</span>
+          <span class="stat-label">Full Report Insight</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 5v14M5 12l7 7 7-7"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-label">What is ARAWAI?</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">From Dense Disclosure<br />to <span class="gradient-text">Clear Intelligence</span></h2>
+          <p>Annual reports are among the most information-dense documents in finance — running to hundreds of pages of financial statements, management commentary, risk disclosures, and governance data. Extracting meaningful insight from them is time-consuming, error-prone, and demands deep expertise.</p>
+          <p>ARAWAI changes this. By combining state-of-the-art large language models with rigorous financial frameworks — including DuPont decomposition, ratio analysis, and narrative sentiment assessment — ARAWAI delivers the depth of a seasoned analyst in a fraction of the time.</p>
+          <a href="https://www.arawai.uk" target="_blank" rel="noopener" class="btn btn--primary" style="margin-top:2rem;">Try ARAWAI Now</a>
+        </div>
+        <div class="about-card-stack">
+          <div class="about-card about-card--main">
+            <div class="about-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+            </div>
+            <div>
+              <strong>Annual Report Input</strong>
+              <p>Upload any publicly available annual report PDF</p>
+            </div>
+          </div>
+          <div class="about-card about-card--secondary">
+            <div class="about-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+            </div>
+            <div>
+              <strong>AI Analysis Engine</strong>
+              <p>Multi-model LLM processing with financial frameworks</p>
+            </div>
+          </div>
+          <div class="about-card about-card--accent">
+            <div class="about-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+            </div>
+            <div>
+              <strong>Actionable Insights</strong>
+              <p>Structured outputs: ratios, trends, risks, commentary</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FEATURES ── -->
+  <section id="features" class="section section--dark">
+    <div class="container">
+      <div class="section-label section-label--light">Core Capabilities</div>
+      <h2 class="section-title section-title--light">Everything You Need to<br /><span class="gradient-text">Analyse Any Annual Report</span></h2>
+      <p class="section-intro section-intro--light">ARAWAI brings together financial expertise and AI into one seamless workflow, covering every dimension of corporate performance analysis.</p>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon feature-icon--blue">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+          </div>
+          <h3>DuPont Financial Decomposition</h3>
+          <p>Automatically breaks down return on equity into its constituent drivers — profitability, asset efficiency, and financial leverage — revealing the true sources of performance.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon feature-icon--teal">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"/></svg>
+          </div>
+          <h3>Comprehensive Ratio Analysis</h3>
+          <p>Liquidity, solvency, profitability, and efficiency ratios computed automatically from the financial statements, with peer-context commentary.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon feature-icon--gold">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/></svg>
+          </div>
+          <h3>Narrative Sentiment Analysis</h3>
+          <p>Applies NLP to management commentary, risk disclosures, and strategic statements — detecting tone shifts, confidence indicators, and emerging concerns.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon feature-icon--purple">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/></svg>
+          </div>
+          <h3>Multi-Year Trend Tracking</h3>
+          <p>Compare financial performance across multiple reporting periods to identify trajectory, momentum shifts, and structural changes in the business.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon feature-icon--blue">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+          </div>
+          <h3>Risk & Red Flag Detection</h3>
+          <p>Flags financial red flags — rising leverage, deteriorating margins, liquidity stress, off-balance-sheet exposure — so nothing slips through the cracks.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon feature-icon--teal">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          </div>
+          <h3>Structured Report Output</h3>
+          <p>Generates a structured analytical report with executive summary, financial tables, and interpretive commentary — ready for presentation or further research.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── HOW IT WORKS ── -->
+  <section id="how-it-works" class="section">
+    <div class="container">
+      <div class="section-label">Process</div>
+      <h2 class="section-title">How <span class="gradient-text">ARAWAI</span> Works</h2>
+      <p class="section-intro">A three-step workflow that takes you from raw corporate disclosure to deep financial insight.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">01</div>
+          <div class="step-connector"></div>
+          <div class="step-content">
+            <h3>Upload the Annual Report</h3>
+            <p>Provide the URL or upload the PDF of any publicly listed company's annual report. ARAWAI supports reports from major global exchanges.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">02</div>
+          <div class="step-connector"></div>
+          <div class="step-content">
+            <h3>AI Processes the Document</h3>
+            <p>The platform extracts, structures, and analyses the financial statements and narrative sections using advanced language models and financial frameworks.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">03</div>
+          <div class="step-connector"></div>
+          <div class="step-content">
+            <h3>Receive Actionable Analysis</h3>
+            <p>Within minutes, receive a comprehensive analytical output covering ratios, trends, risks, and qualitative commentary — structured for decision-making.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── BENEFITS ── -->
+  <section id="benefits" class="section section--muted">
+    <div class="container">
+      <div class="section-label">Why ARAWAI</div>
+      <h2 class="section-title">Built for Financial<br /><span class="gradient-text">Professionals and Researchers</span></h2>
+      <div class="benefits-grid">
+        <div class="benefit-item">
+          <div class="benefit-dot benefit-dot--blue"></div>
+          <div>
+            <h4>Investment Analysts</h4>
+            <p>Accelerate fundamental research across your coverage universe. Analyse a report in minutes, not hours.</p>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-dot benefit-dot--teal"></div>
+          <div>
+            <h4>Corporate Finance Teams</h4>
+            <p>Benchmark competitors, track industry trends, and support M&amp;A diligence with structured comparative analysis.</p>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-dot benefit-dot--gold"></div>
+          <div>
+            <h4>Academic Researchers</h4>
+            <p>Scale financial statement studies across large firm samples without manual data extraction or transcription.</p>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-dot benefit-dot--blue"></div>
+          <div>
+            <h4>Credit &amp; Risk Professionals</h4>
+            <p>Identify early warning signals and deteriorating credit metrics across your portfolio with consistent methodology.</p>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-dot benefit-dot--teal"></div>
+          <div>
+            <h4>Business Students</h4>
+            <p>Build financial analysis skills by seeing professional-grade breakdowns of real company reports, with explanations.</p>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-dot benefit-dot--gold"></div>
+          <div>
+            <h4>Auditors &amp; Consultants</h4>
+            <p>Perform rapid initial diagnostics on client financials before engaging in deeper qualitative work.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA BANNER ── -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="cta-inner">
+        <h2>Ready to See ARAWAI in Action?</h2>
+        <p>Access the live tool and upload your first annual report today — no setup required.</p>
+        <a href="https://www.arawai.uk" target="_blank" rel="noopener" class="btn btn--primary btn--lg">Launch ARAWAI</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TEAM ── -->
+  <section id="team" class="section section--muted">
+    <div class="container">
+      <div class="section-label">Project Team</div>
+      <h2 class="section-title">Meet the <span class="gradient-text">Researchers</span></h2>
+      <p class="section-intro">ARAWAI was developed by accounting and finance academics at <strong>Bayes Business School</strong>, City St George's, University of London.</p>
+
+      <div class="team-grid">
+
+        <div class="team-card">
+          <a href="https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/pawel-bilinski" target="_blank" rel="noopener" class="team-photo-link">
+            <div class="team-photo-wrap">
+              <img
+                src="images/pawel-bilinski.jpg"
+                alt="Professor Pawel Bilinski"
+                class="team-photo"
+                data-initials="PB"
+                data-color="blue"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+              />
+              <div class="team-initials team-initials--blue" style="display:none;">PB</div>
+            </div>
+          </a>
+          <div class="team-info">
+            <h3>
+              <a href="https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/pawel-bilinski" target="_blank" rel="noopener">
+                Prof. Pawel Bilinski
+              </a>
+            </h3>
+            <span class="team-role">Professor of Accounting</span>
+            <p class="team-bio">Director of the Centre for Financial Analysis and Reporting Research (CeFARR) and Research Director of the Faculty of Finance. Editor, <em>Journal of Business Finance and Accounting</em>.</p>
+            <a href="https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/pawel-bilinski" target="_blank" rel="noopener" class="team-profile-link">
+              View Profile
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <a href="https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/qirong-song" target="_blank" rel="noopener" class="team-photo-link">
+            <div class="team-photo-wrap">
+              <img
+                src="images/qirong-song.jpg"
+                alt="Dr Qirong Song"
+                class="team-photo"
+                data-initials="QS"
+                data-color="teal"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+              />
+              <div class="team-initials team-initials--teal" style="display:none;">QS</div>
+            </div>
+          </a>
+          <div class="team-info">
+            <h3>
+              <a href="https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/qirong-song" target="_blank" rel="noopener">
+                Dr Qirong Song
+              </a>
+            </h3>
+            <span class="team-role">Lecturer in Accounting</span>
+            <p class="team-bio">Research interests include financial reporting, disclosure quality, and the intersection of accounting and capital markets. Member of Bayes Accounting Group.</p>
+            <a href="https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/qirong-song" target="_blank" rel="noopener" class="team-profile-link">
+              View Profile
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <a href="https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/gitae-park" target="_blank" rel="noopener" class="team-photo-link">
+            <div class="team-photo-wrap">
+              <img
+                src="images/gitae-park.jpg"
+                alt="Dr Gitae Park"
+                class="team-photo"
+                data-initials="GP"
+                data-color="gold"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+              />
+              <div class="team-initials team-initials--gold" style="display:none;">GP</div>
+            </div>
+          </a>
+          <div class="team-info">
+            <h3>
+              <a href="https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/gitae-park" target="_blank" rel="noopener">
+                Dr Gitae Park
+              </a>
+            </h3>
+            <span class="team-role">Lecturer in Accounting</span>
+            <p class="team-bio">Specialist in empirical accounting research with a focus on financial reporting, auditing, and corporate governance. PhD from Lancaster University.</p>
+            <a href="https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/gitae-park" target="_blank" rel="noopener" class="team-profile-link">
+              View Profile
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <a href="https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/guangyu-li" target="_blank" rel="noopener" class="team-photo-link">
+            <div class="team-photo-wrap">
+              <img
+                src="images/guangyu-li.jpg"
+                alt="Dr Guangyu Li"
+                class="team-photo"
+                data-initials="GL"
+                data-color="purple"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+              />
+              <div class="team-initials team-initials--purple" style="display:none;">GL</div>
+            </div>
+          </a>
+          <div class="team-info">
+            <h3>
+              <a href="https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/guangyu-li" target="_blank" rel="noopener">
+                Dr Guangyu Li
+              </a>
+            </h3>
+            <span class="team-role">Lecturer in Accounting</span>
+            <p class="team-bio">Research interests span financial accounting, earnings quality, and the application of machine learning to accounting and finance problems.</p>
+            <a href="https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/guangyu-li" target="_blank" rel="noopener" class="team-profile-link">
+              View Profile
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-label">Contact</div>
+      <h2 class="section-title">Get in <span class="gradient-text">Touch</span></h2>
+      <p class="section-intro">Have questions about ARAWAI, interested in collaboration, or want to discuss enterprise access? We'd love to hear from you.</p>
+
+      <div class="contact-layout">
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            </div>
+            <div>
+              <strong>Email</strong>
+              <span>pawel.bilinski.1@city.ac.uk</span>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/></svg>
+            </div>
+            <div>
+              <strong>Tool</strong>
+              <a href="https://www.arawai.uk" target="_blank" rel="noopener">www.arawai.uk</a>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>
+            </div>
+            <div>
+              <strong>Affiliation</strong>
+              <span>City, University of London</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" action="contact.php" method="POST" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name <span class="required">*</span></label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="organisation">Organisation</label>
+              <input type="text" id="organisation" name="organisation" placeholder="Your company or institution" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address <span class="required">*</span></label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject <span class="required">*</span></label>
+            <select id="subject" name="subject" required>
+              <option value="" disabled selected>Select a topic…</option>
+              <option value="General Enquiry">General Enquiry</option>
+              <option value="Research Collaboration">Research Collaboration</option>
+              <option value="Enterprise Access">Enterprise Access</option>
+              <option value="Technical Support">Technical Support</option>
+              <option value="Press & Media">Press &amp; Media</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message <span class="required">*</span></label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help…" required></textarea>
+          </div>
+          <div class="form-footer">
+            <p class="form-note">We typically respond within two business days.</p>
+            <button type="submit" class="btn btn--primary btn--lg">Send Message</button>
+          </div>
+          <div id="form-status" class="form-status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <span class="logo-mark">A</span>
+            <span class="logo-text">ARAWAI</span>
+          </a>
+          <p>Annual Report Analysis with AI.<br />Transforming corporate disclosure into financial intelligence.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h5>Navigation</h5>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#how-it-works">How It Works</a></li>
+              <li><a href="#benefits">Benefits</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h5>Tool</h5>
+            <ul>
+              <li><a href="https://www.arawai.uk" target="_blank" rel="noopener">Launch ARAWAI</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 ARAWAI. All rights reserved.</p>
+        <p>Hosted on <a href="https://www.ionos.co.uk/" target="_blank" rel="noopener">IONOS</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
